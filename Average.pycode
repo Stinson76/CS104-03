@@ -1,0 +1,12 @@
+# Let n be the total number of scores to average
+n = 20
+total_numbers = n
+# Let sum be the sum of all score
+sum=0
+# Let set a condition 
+while (n >= 0):
+    sum += n
+    n-=1
+print ("sum using while loop ", sum)
+average  = sum / total_numbers
+print("Average using a while loop ", average)
