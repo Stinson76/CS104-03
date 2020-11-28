@@ -1,0 +1,23 @@
+# Cedestinson Ductan
+# Simulate a queue at a Bank
+
+
+# Initializing a queue 
+names = []
+
+# Register names in to the queue
+for x in range(10):
+    acceptedNames = input("Enter a name")
+    names.append(acceptedNames)
+
+print("Initial queue")
+print(names)
+
+# Dequeue the names from the queue
+print("names dequeued from queue")
+for x in range(len(names)):
+    print(names.pop(0))
+
+
+print("list  after dequeue-ing")
+print(names)
